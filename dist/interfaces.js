@@ -1,0 +1,53 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.ICanonWebRemoteShutterModes = exports.ICanonWebRemoteWhiteBalanceModes = exports.ICanonWebRemoteLensValues = exports.ICanonWebRemoteLensProperties = void 0;
+var ICanonWebRemoteLensProperties;
+(function (ICanonWebRemoteLensProperties) {
+    ICanonWebRemoteLensProperties["ZOOM"] = "zoom";
+    ICanonWebRemoteLensProperties["ZOOM_STEP"] = "stepzoom";
+    ICanonWebRemoteLensProperties["IRIS"] = "iris";
+    ICanonWebRemoteLensProperties["FOCUS"] = "fl";
+    ICanonWebRemoteLensProperties["SWITCH"] = "sw";
+})(ICanonWebRemoteLensProperties = exports.ICanonWebRemoteLensProperties || (exports.ICanonWebRemoteLensProperties = {}));
+var ICanonWebRemoteLensValues;
+(function (ICanonWebRemoteLensValues) {
+    ICanonWebRemoteLensValues["ZOOM_TELE_SHORT"] = "tele1";
+    ICanonWebRemoteLensValues["ZOOM_TELE_MEDIUM"] = "tele2";
+    ICanonWebRemoteLensValues["ZOOM_TELE_LONG"] = "tele3";
+    ICanonWebRemoteLensValues["ZOOM_WIDER_SHORT"] = "wide1";
+    ICanonWebRemoteLensValues["ZOOM_WIDER_MEDIUM"] = "wide2";
+    ICanonWebRemoteLensValues["ZOOM_WIDER_LONG"] = "wide3";
+    ICanonWebRemoteLensValues["ZOOM_STEP_1"] = "1";
+    ICanonWebRemoteLensValues["ZOOM_STEP_2"] = "2";
+    ICanonWebRemoteLensValues["ZOOM_STEP_3"] = "3";
+    ICanonWebRemoteLensValues["ZOOM_STEP_4"] = "4";
+    ICanonWebRemoteLensValues["ZOOM_STEP_5"] = "5";
+    ICanonWebRemoteLensValues["ZOOM_STEP_6"] = "6";
+    ICanonWebRemoteLensValues["IRIS_PLUS"] = "plus";
+    ICanonWebRemoteLensValues["IRIS_MINUS"] = "minus";
+    ICanonWebRemoteLensValues["FOCUS_FURTHER_SHORT"] = "far1";
+    ICanonWebRemoteLensValues["FOCUS_FURTHER_MEDIUM"] = "far2";
+    ICanonWebRemoteLensValues["FOCUS_FURTHER_LONG"] = "far3";
+    ICanonWebRemoteLensValues["FOCUS_NEARER_SHORT"] = "near1";
+    ICanonWebRemoteLensValues["FOCUS_NEARER_MEDIUM"] = "near2";
+    ICanonWebRemoteLensValues["FOCUS_NEARER_LONG"] = "near3";
+    ICanonWebRemoteLensValues["FOCUS"] = "focus";
+})(ICanonWebRemoteLensValues = exports.ICanonWebRemoteLensValues || (exports.ICanonWebRemoteLensValues = {}));
+var ICanonWebRemoteWhiteBalanceModes;
+(function (ICanonWebRemoteWhiteBalanceModes) {
+    ICanonWebRemoteWhiteBalanceModes["KELVIN"] = "Kelvin";
+    ICanonWebRemoteWhiteBalanceModes["DAYLIGHT"] = "Daylight";
+    ICanonWebRemoteWhiteBalanceModes["TUNGSTEN"] = "Tungsten";
+    ICanonWebRemoteWhiteBalanceModes["PRESET_A"] = "PresetA";
+    ICanonWebRemoteWhiteBalanceModes["PRESET_B"] = "PresetB";
+    ICanonWebRemoteWhiteBalanceModes["AUTO"] = "Automatic";
+})(ICanonWebRemoteWhiteBalanceModes = exports.ICanonWebRemoteWhiteBalanceModes || (exports.ICanonWebRemoteWhiteBalanceModes = {}));
+var ICanonWebRemoteShutterModes;
+(function (ICanonWebRemoteShutterModes) {
+    ICanonWebRemoteShutterModes["OFF"] = "off";
+    ICanonWebRemoteShutterModes["SLOW"] = "slow";
+    ICanonWebRemoteShutterModes["SPEED"] = "speed";
+    ICanonWebRemoteShutterModes["ANGLE"] = "angle";
+    ICanonWebRemoteShutterModes["CLEAR_SCAN"] = "cls";
+    ICanonWebRemoteShutterModes["AUTO"] = "Automatic";
+})(ICanonWebRemoteShutterModes = exports.ICanonWebRemoteShutterModes || (exports.ICanonWebRemoteShutterModes = {}));
